@@ -22,4 +22,5 @@ int check_cycle(listint_t *list)
 													current = current->next;
 															check = check->next->next;
 																}
-			
+							return (0);
+}	
